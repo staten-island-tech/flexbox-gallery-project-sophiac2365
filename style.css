@@ -1,22 +1,21 @@
 html,
 body,
 *{
-    margin: 2%;
     padding: 1%;
     box-sizing: border-box;
     font-size: 62.5%;
-    background-color:lightgrey;
+    font-size: 1.5rem;;
+    background-color:lightgreen;
     font-family: 'Gemunu Libre', sans-serif;
-    font-size: 1em;
     text-align: center;
 }
-
+ 
 h1{
-    font-size: 3em;
-} 
+    font-size: 2rem;
+}
 
 .gallery{
-    font-size: 20px;
+    font-size: 1rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -24,19 +23,20 @@ h1{
 .box{
     border: 1px solid black;
     border-radius: 1em;
-    flex: 1;
-    margin: 10px;
+    flex: 2;
+    margin: 1rem;
     width: 26%;
     box-shadow: 5px 5px 5px black;
     background-color:floralwhite;
+    align-items: center;
 }
 
-.dino-img{
-    height: 15rem;
+.cactus-img{
+    height: 12rem;
     width: auto;
     background-color: floralwhite;
 }
 
-.dino-header{
+.cactus-header{
     background-color: floralwhite;
 }
