@@ -11,7 +11,26 @@ body,
 }
  
 h1{
-    font-size: 2rem;
+    font-size: 2rem; 
+    margin-left: 25%;
+    margin-right: 25%;
+    animation: pulse 5s infinite;
+}
+
+  
+@keyframes pulse {
+    0% {
+        background: #ee90ee;
+        color: #e3fae3;
+    }
+    50% {
+        background-color: #e3fae3;
+        color: #ee90ee;
+    }
+    100% {
+        background-color: #ee90ee;
+        color: #e3fae3;
+    }
 }
 
 .gallery{
@@ -25,13 +44,14 @@ h1{
 .box{
     border: 2px solid black;
     border-radius: 1em;
-    flex: 2;
-    flex-grow: 2;
+    flex: 1;
+    flex-grow: 1;
     margin: 1rem;
     width: 26%;
     box-shadow: 5px 5px 5px black;
     background-color:floralwhite;
-    align-items: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .cactus-img{
@@ -45,7 +65,39 @@ h1{
 }
 
 .box1:hover{
-    background-color: khaki;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+    background-color: khaki; 
 }
+
+.box2:hover{
+    transform: rotate(20deg);
+}
+
+.box3:hover{
+    text-shadow: 0px 0px 6px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.box4:hover{
+    transform: skew(-10deg);
+}
+
+.box5{
+    border: 3px solid black;
+}
+
+.box5:hover{
+    border: 3px dotted black;
+    color: black;
+}
+
+.gallery:hover .box:not(:hover){
+    transform: scale(0.8);
+    opacity: 0.3;
+}
+
+.element {
+    width: 100%;
+    height: 100%;
+    animation: pulse 5s infinite;
+  }
