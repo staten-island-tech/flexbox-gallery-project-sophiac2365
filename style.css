@@ -112,3 +112,20 @@ h1{
     transform: scale(0.8);
     opacity: 0.3;
 }
+
+@media (max-width:800px){
+    *,body{
+        background-color: lightpink;
+    }
+    .box{
+        border: 2px 2px 2px blueviolet;
+        box-shadow: blueviolet;
+    }
+}
+
+@media (max-width:500px){
+    *,body{
+        background-color: lightskyblue;
+    }
+}
+
