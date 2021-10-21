@@ -120,21 +120,21 @@ h1{
     .gallery{
         flex-direction: row;
         margin: auto;
+        font-size: 1rem;
+        align-items: center;
     }
     .box{
-        height: 35rem;
+        height: 30.5rem;
         width: 40%;
     }
     .box9{
-        height: 35rem;
+        height: 30.5rem;
         max-width: 40%;
     }
     .cactus-img{
         width: 75%;
         height: auto;
         align-items: center;
-        justify-content: center;
-        object-position: 50% 50%;
     }
 }
 
@@ -161,7 +161,5 @@ h1{
         width: 75%;
         height: auto;
         align-items: center;
-        justify-content: center;
-        object-position: 50% 50%;
     }
 }
