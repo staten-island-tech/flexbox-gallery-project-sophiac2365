@@ -120,7 +120,6 @@ h1{
     .gallery{
         flex-direction: row;
         margin: auto;
-        font-size: 1rem;
         align-items: center;
     }
     .box{
@@ -145,7 +144,6 @@ h1{
     }
     .gallery{
         flex-direction: column;
-        font-size: 0.5rem;
         margin: auto;
         align-items: center;
     }
