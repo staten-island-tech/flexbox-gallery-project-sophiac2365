@@ -116,6 +116,7 @@ h1{
     *,html,body{
         background-color: lightskyblue;
         transition: 1s;
+        font-size: 1.35rem;
     }
     .gallery{
         flex-direction: row;
@@ -141,6 +142,7 @@ h1{
     *,html,body{
         background-color:lightpink;
         transition: 1s;
+        font-size: 1.25rem
     }
     .gallery{
         flex-direction: column;
@@ -148,11 +150,11 @@ h1{
         align-items: center;
     }
     .box{
-        height: 20rem;
+        height: 20.5rem;
         width: 85%;
     }
     .box9{
-        height: 20rem;
+        height: 20.5rem;
         max-width: 85%;
     }
     .cactus-img{
