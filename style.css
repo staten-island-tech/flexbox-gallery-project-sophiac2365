@@ -112,7 +112,7 @@ h1{
     opacity: 0.3;
 }
 
-@media only screen and (max-width: 1800px){
+@media only screen and (max-width: 1200px){
     *,html,body{
         background-color: lightskyblue;
         transition: 1s;
