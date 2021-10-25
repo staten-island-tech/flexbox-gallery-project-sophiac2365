@@ -1,11 +1,10 @@
 html,
 body,
 *{
-    padding: 1%;
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
     font-size: 62.5%;
-    font-size: 1.5rem;
-    background-color:lightgreen;
     font-family: 'Gemunu Libre', sans-serif;
     text-align: center;
 }
@@ -46,6 +45,7 @@ h1{
     flex: auto;
     flex-grow: 1;
     margin: 1rem;
+    padding: 2rem;
     width: 26%;
     box-shadow: 5px 5px 5px black;
     background-color:floralwhite;
@@ -110,6 +110,13 @@ h1{
 .gallery:hover .box:not(:hover){
     transform: scale(0.8);
     opacity: 0.3;
+}
+@media only screen and (min-width: 1200px){
+    *,html,body{
+        background-color: lightgreen;
+        transition: 1s;
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 1200px){
