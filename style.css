@@ -6,7 +6,6 @@ body,
     box-sizing: border-box;
     font-size: 62.5%;
     font-family: 'Gemunu Libre', sans-serif;
-    text-align: center;
 }
  
 h1{
@@ -116,6 +115,7 @@ h1{
         background-color: lightgreen;
         transition: 1s;
         font-size: 1.5rem;
+        text-align: center;
     }
 }
 
@@ -124,6 +124,7 @@ h1{
         background-color: lightskyblue;
         transition: 1s;
         font-size: 1.35rem;
+        text-align: center;
     }
     .gallery{
         flex-direction: row;
@@ -149,7 +150,8 @@ h1{
     *,html,body{
         background-color:lightpink;
         transition: 1s;
-        font-size: 1.25rem
+        font-size: 1.25rem;
+        text-align: center;
     }
     .gallery{
         flex-direction: column;
